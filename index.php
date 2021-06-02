@@ -4,12 +4,18 @@
 <meta charset="utf-8">
  </head>
  <body>
-     <?php
-     function validar(){
-        
+ <script>
+ function validar(){
+     var nombre = document.getElementById("nombre").value;
 
-     }
-  ?>
+    if(nombre=="" || apellido==""|| telefono==""|| email==""|| edad==""||fechaDeNacimiento==""){
+        alert("Por favor llene todos los campos");
+    } else {
+        document.getElementById("formulario").submit;
+    }
+}
+ </script>
+   
  <form  id = formulario action="formulario.php" method="POST">
      Nombre <input type="text" name="nombre" id="nombre">
      Apellido <input type="text" name="apellido" id="apellido">

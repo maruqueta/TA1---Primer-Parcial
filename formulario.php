@@ -1,4 +1,5 @@
 <?php
+
 $nombre = $_POST ['nombre'];
 $apellido = $_POST ['Apellido'];
 $telefono = $_POST ['telefono'];
@@ -13,6 +14,8 @@ function insertarEnBD($nombre,$apellido,$telefono,$edad, $fechaDeNacimiento,$ema
     $conexion -> query($mysqli);
     $conexion -> close();          
 }
+
+?>
 
 
 
