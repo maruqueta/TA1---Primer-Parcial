@@ -4,8 +4,13 @@
 <meta charset="utf-8">
  </head>
  <body>
-  
- <form  id = formulario action="insertar.php" method="POST">
+     <?php
+     function validar(){
+        
+
+     }
+  ?>
+ <form  id = formulario action="formulario.php" method="POST">
      Nombre <input type="text" name="nombre" id="nombre">
      Apellido <input type="text" name="apellido" id="apellido">
      Telefono <input type="number" name="telefono" id="telefono">
